@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+ background: #E8E8E8;
+ height: 100%;
+ padding: 30px 40px;
+ position: relative;
+}
+.content-header {
+  height: 200px;
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  position: relative;
+
+}
+.red {
+  height: 40px;
+  width: 80px;
+  background: red;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  
+}
+.blue {
+
+}
