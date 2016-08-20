@@ -37,19 +37,29 @@ body {
 
 .component .emote {
   float: left;
-
+ margin-right: 10px;
 }
 
 .component .tags {
   overflow-y: scroll;
-  float: left;
+  height: 100%;
+
+}
+.component .tag:before {
+  content: "# ";
 }
 
 .component .tag {
-
+  color: #888;
 }
 
 .component .bignumber {
+  position: absolute;
+  color: #222;
+  right: 0;
+  top: 15%;
+  font-size: 30px;
+  font-weight: bold;
 
 }
 
