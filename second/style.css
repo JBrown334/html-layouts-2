@@ -10,23 +10,45 @@ body {
  position: relative;
 }
 .content-header {
-  height: 200px;
+  height: 180px;
   background: #fff;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   font-family: sans-serif;
   position: relative;
+  overflow-x: scroll;
 
+}
+.wrapper {
+  width: 100%;
+  background-color: #fff;
 }
 .red {
-  height: 40px;
-  width: 80px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  height: 50px;
+  width: 120px;
+  color: #fff;
   background: red;
-  position: absolute;
-  left: 10px;
-  bottom: 10px;
-  
+  font-size: 20px;
 }
 .blue {
-
+  margin-left:20px;
+  margin-bottom: 20px;
+  height: 50px;
+  width: 120px;
+  background: blue;
+  color: #fff;
+  font-size: 20px;
+}
+.delorean {
+  width: 100%;
+  padding-top: 40px;
+}
+.text-below-img {
+  background: #fff;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 20px;
+  overflow-x: scroll;
 }
